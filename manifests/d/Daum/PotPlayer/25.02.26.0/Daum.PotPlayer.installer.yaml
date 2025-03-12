@@ -122,15 +122,9 @@ FileExtensions:
 - xss
 ElevationRequirement: elevatesSelf
 Installers:
-- Architecture: x86
-  InstallerUrl: https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup.exe
-  InstallerSha256: 48A83A1A72564743D4AF32EDB84F2EE3BD746642E6A288E130859820E2285704
-  AppsAndFeaturesEntries:
-  - Publisher: Kakao Corp.
-    ProductCode: PotPlayer
 - Architecture: x64
   InstallerUrl: https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe
-  InstallerSha256: 2DD783E95E222D3FC899D1408D056EE6647D3E3C49E45199897E1134AA3774CA
+  InstallerSha256: 3DF48ECADD3BB6EC83F244E73E089FD1AD160E74BF88313A1B6FBA1F14FB7CB3
   AppsAndFeaturesEntries:
   - Publisher: Kakao Corp.
     ProductCode: PotPlayer64
