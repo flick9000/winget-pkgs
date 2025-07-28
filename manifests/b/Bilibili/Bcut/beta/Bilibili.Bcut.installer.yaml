@@ -11,7 +11,7 @@ Protocols:
 ProductCode: 必剪_is1
 Installers:
 - Architecture: x64
-  InstallerUrl: https://boss.hdslb.com/bcut_pc_pkg/static/f9b34aeb64c7dbfa2ccc5d285c078ce6/Bcut-Win.exe
-  InstallerSha256: B05FA554C971F113D59321FBFEFE6F58A3609FBF71B5F8251FFADB3F94BE98D5
+  InstallerUrl: https://boss.hdslb.com/bcut_pc_pkg/static/809cb61ba679e9f1bb03c08729d61c90/Bcut-Win-3.5.5.exe
+  InstallerSha256: 0E560E915E81BF447D819FE06AA16F326035027EBD17994C4E239A25281EE585
 ManifestType: installer
 ManifestVersion: 1.10.0
