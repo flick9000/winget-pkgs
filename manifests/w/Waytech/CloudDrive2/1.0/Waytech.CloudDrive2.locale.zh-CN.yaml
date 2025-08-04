@@ -28,13 +28,17 @@ Tags:
 - 文件
 - 服务器
 ReleaseNotes: |-
-  1. 全新设计的 WebUI 2.0 版，界面更美观，对移动设备支持更好，新增多项新功能，包括性能监控、瀑布流风格文件浏览器、web 界面内播放视频支持加载同目录下 srt 和 vtt 格式的字幕文件等。对 WebUI 2.0 版有任何问题和建议请及时反馈，将会在后面的版本中持续改进。由于新版本 WebUI 框架变化较大，从旧版本升级后如果界面显示有问题请清空浏览器缓存后重新加载
-  2. 修改账户邮箱需要先向原邮箱发送验证码，填入正确验证码后才能修改，Web2.0.0.0 以上版本支持发送和输入验证码，老版本不再支持修改邮箱操作
-  3. 提高跨网盘传输无法秒传时边下载边上传的传输速度
-  4. 修复 WebDAV 客户端上传文件对某些 WebDAV Server 的兼容性问题
-  5. 每个 Webhook 请求最多能携带的文件变更通知条数从 10 改为 100，用户也可以通过设置环境变量 MAX_FILE_NOTIFIES_PER_WEBHOOK_REQUEST 自己修改这个值
-  6. 其它 bug 修复和性能改进
-ReleaseNotesUrl: https://github.com/cloud-fs/cloud-fs.github.io/releases/tag/v0.9.2
+  1. 新增复制（移动）任务本地持久化，在系统重启后，无论是正在扫描还是扫描完成正在上传的复制（移动）任务都可以恢复启动前的状态继续进行
+  2. 修复无法通过 web 界面下载 0 字节文件的问题
+  3. 修复 Web2.0.1.0 版本通过 RefreshToken 添加 Google Drive 可能失败的问题
+  4. 修复全屏浏览照片和图片界面的文件属性按钮不工作的问题
+  5. 在移动、复制操作时，会校验当前选择的文件夹是否合法，不合法的文件夹确认按钮不可点击，鼠标悬浮可显示不合法的原因
+  6. 拖动文件上传和拖动文件到添加离线任务的最大文件数量从 10 改为 1024
+  7. 修复访问非本地地址的 web 界面时可能出现的一些复制到剪贴板会失败的问题
+  8. 修复会员用户初次打开备份界面添加备份时提示需要升级用户套餐的问题
+  9. 修复重启服务时会提示连接失败的问题
+  10. 其它 bug 修复和界面调整
+ReleaseNotesUrl: https://github.com/cloud-fs/cloud-fs.github.io/releases/tag/v0.9.4
 PurchaseUrl: https://www.clouddrive2.com/pricing.html
 ManifestType: locale
 ManifestVersion: 1.10.0
