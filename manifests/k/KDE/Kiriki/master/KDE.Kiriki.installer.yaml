@@ -9,14 +9,14 @@ ProductCode: kiriki
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kiriki/master/windows/kiriki-master-681-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 4EDA770151E638446AE9F106A51C51E77BA9CE38F6AC6F8E63215904A59BE0D8
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kiriki/master/windows/kiriki-master-701-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 5AABBD4DA2530D50A2457FBE756670EE8491780F9CA4A730894C79E8BADC96E8
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/games/kiriki/master/windows/kiriki-master-681-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 4EDA770151E638446AE9F106A51C51E77BA9CE38F6AC6F8E63215904A59BE0D8
+  InstallerUrl: https://cdn.kde.org/ci-builds/games/kiriki/master/windows/kiriki-master-701-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: 5AABBD4DA2530D50A2457FBE756670EE8491780F9CA4A730894C79E8BADC96E8
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer

@@ -9,14 +9,14 @@ ProductCode: Kontact
 Installers:
 - Architecture: x64
   Scope: user
-  InstallerUrl: https://cdn.kde.org/ci-builds/pim/kontact/master/windows/kontact-master-1979-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 26A534E9B86E9C4F000E55B289E0CFBD033FE81CB5EAD648A1882C5C42BD73C5
+  InstallerUrl: https://cdn.kde.org/ci-builds/pim/kontact/master/windows/kontact-master-2078-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: D853AA1AA03FE19B1E855A3571F2E9AF295F72AB8EADA727BDFDA5EEB04640AB
   InstallerSwitches:
     Custom: /CurrentUser
 - Architecture: x64
   Scope: machine
-  InstallerUrl: https://cdn.kde.org/ci-builds/pim/kontact/master/windows/kontact-master-1979-windows-cl-msvc2022-x86_64.exe
-  InstallerSha256: 26A534E9B86E9C4F000E55B289E0CFBD033FE81CB5EAD648A1882C5C42BD73C5
+  InstallerUrl: https://cdn.kde.org/ci-builds/pim/kontact/master/windows/kontact-master-2078-windows-cl-msvc2022-x86_64.exe
+  InstallerSha256: D853AA1AA03FE19B1E855A3571F2E9AF295F72AB8EADA727BDFDA5EEB04640AB
   InstallerSwitches:
     Custom: /AllUsers
 ManifestType: installer
